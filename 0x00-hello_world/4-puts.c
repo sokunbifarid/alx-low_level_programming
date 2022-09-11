@@ -4,6 +4,6 @@ int main(void)
 {
 	char value[100] = {"\"Programming is like building a multilingual puzzle"};
 	
-	puts( value );
+	puts (value);
 	return(0);
 }
