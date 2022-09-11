@@ -1,2 +1,3 @@
 #!/bin/bash
-export CFILE=main.c > c
+make main
+export CFILE=./main > c
