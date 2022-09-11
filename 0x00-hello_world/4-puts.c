@@ -2,6 +2,6 @@
 int main(void)
 {
 	char value[50] = {"Programming is like building a multilingual puzzle"};
-	puts(c);
+	puts(value);
 	return(0);
 }
