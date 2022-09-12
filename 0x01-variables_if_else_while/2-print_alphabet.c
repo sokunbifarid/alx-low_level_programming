@@ -12,5 +12,6 @@ int main(void)
 	{
 		putchar(chops);
 	}
+	putchar('\n');
 	return (0);
 }
