@@ -7,6 +7,7 @@
 int main(void)
 {
 	char cot;
+
 	for (cot = 'z'; cot >= 'a'; cot--)
 	{
 		putchar(cot);
