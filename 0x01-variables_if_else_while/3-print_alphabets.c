@@ -7,8 +7,8 @@
 int main(void)
 {
 	char caps;
-	
-	for (caps = 'a';caps <= 'z';caps++)
+
+	for (caps = 'a'; caps <= 'z'; caps++)
 	{
 		putchar(caps);
 	}
