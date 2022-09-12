@@ -10,7 +10,7 @@ int main(void)
 	
 	for (cup = 0; cup <= 9; cup++)
 	{
-		putchar(cup);
+		putchar((char) cup);
 	}
 	putchar('\n');
 	return (0);
