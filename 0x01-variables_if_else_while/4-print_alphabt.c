@@ -13,7 +13,7 @@ int main(void)
 		if (cube != 'q' && cube != 'e')
 		{
 			putchar(cube);
-		}	
+		}
 	}
 
 	putchar('\n');
