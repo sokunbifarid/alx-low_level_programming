@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(caps);
 	}
-	
+
 	for (caps = 'A'; caps <= 'Z'; caps++)
 	{
 		putchar(caps);
