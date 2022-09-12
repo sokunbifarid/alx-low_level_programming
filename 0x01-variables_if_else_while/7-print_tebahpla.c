@@ -11,7 +11,7 @@ int main(void)
 	for (cot = 'z'; cot >= 'a'; cot--)
 	{
 		putchar(cot);
-	}	
+	}
 	putchar('\n');
 	return (0);
 }
