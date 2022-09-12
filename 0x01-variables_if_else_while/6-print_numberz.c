@@ -7,7 +7,7 @@
 int main(void)
 {
 	int cup;
-	
+
 	for (cup = 0; cup <= 9; cup++)
 	{
 		putchar((char) cup);
