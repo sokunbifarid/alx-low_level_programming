@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int chops;
+	char chops;
 
 	for (chops = 'a'; chops <= 'z'; chops++)
 	{
