@@ -16,7 +16,9 @@ int main(void)
 			{
 				if (i != j && j != k && k != i)
 				{
-					putchar((char) i + j + k + '0');
+					putchar((char) i + '0');
+					putchar((char) j + '0');
+					putchar((char) k + '0');
 					putchar(',');
 					putchar(' ');
 				}
