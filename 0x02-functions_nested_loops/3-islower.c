@@ -4,7 +4,7 @@
 /**
  * _islower - func
  * @c: value
- * RETURN: value
+ * @RETURN: value
  */
 int _islower(int c)
 {
