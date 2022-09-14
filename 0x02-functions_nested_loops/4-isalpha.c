@@ -4,6 +4,7 @@
  * _isalpha - function
  * @c: value
  * Return: value
+ */
 int _isalpha(int c)
 {
 	if (islower(c) || isalpha(c))
