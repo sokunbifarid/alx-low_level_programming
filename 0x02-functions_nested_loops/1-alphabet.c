@@ -1,7 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-
-void print_alphabet()
+/**
+ * print_alphabet - function
+ * @void: null
+ */
+void print_alphabet(void)
 {
 	char c;
 
