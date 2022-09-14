@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 
-int moin(void)
+void print_alphabet(void)
 {
-	printf("task");
-	return (0);
+	char cat;
+
+	for (cat = 'a'; cat <= 'z'; cat++)
+	{
+		putchar(cat);
+	}
 }
