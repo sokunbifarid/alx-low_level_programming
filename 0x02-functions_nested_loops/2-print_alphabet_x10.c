@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * main - func
+ * print_alphabet_x10 - func
  * @void: null
- * Return: value
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i;
 
@@ -17,5 +17,4 @@ int main(void)
 			putchar(cot);
 		}
 	}
-	return (0);
 }
