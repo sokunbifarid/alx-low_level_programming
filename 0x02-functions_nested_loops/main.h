@@ -10,3 +10,18 @@ void print_alphabet(void)
 		putchar(cat);
 	}
 }
+
+void print_alphabet_x10(void)
+{
+	int i;
+	char cot;
+
+	for (i = 0; i <= 9; i++)
+	{
+		for (cot = 'a'; cot <= 'z'; cot++)
+		{
+			putchar(cot);
+		}
+	}
+
+}
