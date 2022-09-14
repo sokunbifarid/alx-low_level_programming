@@ -4,16 +4,6 @@
  * @void: empty
  * Return: value
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/**
- * print_alphabet - function
- * @void: empty
- */
 void print_alphabet(void)
 {
 	char cat;
@@ -22,4 +12,15 @@ void print_alphabet(void)
 	{
 		putchar(cat);
 	}
+}
+
+/**
+ * print_alphabet - function
+ * @void: empty
+ * Return: value
+ */
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
