@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-void print_alphabet_1()
+void print_alphabet()
 {
 	char c;
 
@@ -14,6 +14,6 @@ void print_alphabet_1()
 
 int main(void)
 {
-	print_alphabet_1();
+	print_alphabet();
 	return (0);
 }
