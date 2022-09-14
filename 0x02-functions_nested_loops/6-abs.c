@@ -3,10 +3,10 @@
 #include "main.h"
 /**
  * _abs - function
- * @int: value
+ * @a: value
  * Return: value
  */
 int _abs(int a)
 {
-	return abs(a);
+	return abs((a));
 }
