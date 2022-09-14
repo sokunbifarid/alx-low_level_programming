@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.h"
+#include "1-main.h"
 /**
  * main - func
  * @void: empty
@@ -7,5 +6,5 @@
  */
 int main(void)
 {
-	return (0);
+	print_alphabet();
 }
