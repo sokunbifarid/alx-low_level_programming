@@ -9,3 +9,4 @@ int print_sign(int n);
 int _abs(int a);
 int print_last_digit(int b);
 int add(int a, int b);
+void print_to_98(int n);
