@@ -19,4 +19,5 @@ int print_sign(int n)
 	{
 		printf("00");
 	}
+	return (0);
 }
