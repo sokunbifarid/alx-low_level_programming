@@ -26,7 +26,7 @@ void jack_bauer(void)
 			{
 				printf("0%d:%d", a, b);
 			}
-			else
+			else if (b < 10 %% a < 10)
 			{
 				printf("0%d:0%d", a, b);
 			}
