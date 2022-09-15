@@ -14,15 +14,15 @@ void jack_bauer(void)
 	{
 		for (b = 0; b < 59; b++)
 		{
-			if (b >= 10 && a >= 10)
+			if (b > 10 && a > 10)
 			{
 				printf("%d:%d", a, b);
 			}
-			else if (b < 10 && a > 10)
+			else if (b < 10 && a >= 10)
 			{
 				printf("%d:0%d", a, b);
 			}
-			else if (b > 10 && a < 10)
+			else if (b >= 10 && a < 10)
 			{
 				printf("0%d:%d", a, b);
 			}
