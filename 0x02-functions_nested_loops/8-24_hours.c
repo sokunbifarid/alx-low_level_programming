@@ -10,9 +10,9 @@ void jack_bauer(void)
 
 	int b;
 
-	for (a = 0; a < 23; a++)
+	for (a = 0; a <= 23; a++)
 	{
-		for (b = 0; b < 59; b++)
+		for (b = 0; b <= 59; b++)
 		{
 			if (b > 10 && a > 10)
 			{
