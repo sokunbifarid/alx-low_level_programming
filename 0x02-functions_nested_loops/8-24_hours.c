@@ -30,6 +30,7 @@ void jack_bauer(void)
 			{
 				printf("0%d:0%d", a, b);
 			}
+			printf('\n');
 		}
 	}
 }
