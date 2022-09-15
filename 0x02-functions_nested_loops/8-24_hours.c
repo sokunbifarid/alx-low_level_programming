@@ -14,7 +14,7 @@ void jack_bauer(void)
 	{
 		for (b = 59; b > 0; b--)
 		{
-			if (b > 10 && a > 10)
+			if (b >= 10 && a >= 10)
 			{
 				printf("%d:%d", a, b);
 			}
