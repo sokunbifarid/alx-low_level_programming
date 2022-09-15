@@ -10,7 +10,7 @@
 int print_last_digit(int b)
 {
 /*	printf("%d%d", abs(b % 10), abs(b % 10));*/
-	_putchar("\n");
+	printf("\n");
 	return (b % 10);
 /*	return NAN;*/
 }
