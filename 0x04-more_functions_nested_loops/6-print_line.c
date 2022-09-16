@@ -4,7 +4,6 @@
 /**
  * print_line - function
  * @n: value
- * Return: value
  */
 
 void print_line(int n)
