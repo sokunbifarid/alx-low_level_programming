@@ -1,5 +1,6 @@
 #include "main.h"
 #include <ctype.h">
+#include <stdio.h>
 /**
  * _isdigit - function
  * @c: value
