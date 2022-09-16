@@ -1,12 +1,13 @@
 #include "main.h"
 #include <ctype.h">
 #include <stdio.h>
+
 /**
  * _isdigit - function
  * @c: value
  * Return: function calue
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	if (isdigit(c))
 	{
