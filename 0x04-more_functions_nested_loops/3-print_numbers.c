@@ -4,8 +4,8 @@
 /** 
 * print_numbers - function
 * @void: null
+* Return: null
 */
-
 void print_numbers(void)
 {
 	int i;
