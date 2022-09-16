@@ -2,6 +2,11 @@
 #include <ctype.h>
 #include "main.h"
 
+/**
+ * _isupper - function
+ * @c: value
+ * Return: function value
+ */
 int _isupper(int c)
 {
 	if (isupper(c))
