@@ -1,6 +1,5 @@
-#include <stdio.h>
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_most_numbers - function
  * @void: null
