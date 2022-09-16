@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /** 
- * print_numbers - function
- * @void: null
- */
+* print_numbers - function
+* @void: null
+*/
 
 void print_numbers(void)
 {
