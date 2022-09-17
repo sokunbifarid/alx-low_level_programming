@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 /**
  * print_to_98 - function
  * @n: value
@@ -20,8 +21,7 @@ void print_to_98(int n)
 			else
 			{
 				_putchar('-');
-				i = i * -1;
-				_putchar(i + '0');
+				_putchar(abs(i) + '0');
 			}
 		}
 		else
