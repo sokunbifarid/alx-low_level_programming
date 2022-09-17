@@ -9,6 +9,7 @@
 void print_to_98(int n)
 {
 	int i;
+
 	i = n;
 	while (i <= 98)
 	{
@@ -45,6 +46,23 @@ void print_to_98(int n)
 			_putchar(' ');
 		}
 		i++;
+	}
+	if (i >= 99)
+	{
+		while (i >= 98)
+		{
+			if (i < 100)
+			{
+				_putchar(i + '0');
+			}
+			else
+			{
+				_putchar(i / 100 + '0');
+				_putchar((i / 10) % 10 + '0');
+				_putchar(i % 10 + '0');
+			}
+			i--;
+		}
 	}
 	_putchar('\n');
 }
