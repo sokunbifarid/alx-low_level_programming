@@ -11,7 +11,7 @@ void print_to_98(int n)
 	int i;
 	i = n;
 	while (i <= 98)
-	
+	{
 		if (i < 0 && i > -10)
 		{
 			_putchar('-');
