@@ -9,8 +9,15 @@
  */
 int print_last_digit(int b)
 {
-/*	printf("%d%d", abs(b % 10), abs(b % 10));*/
-	printf("\n");
-	return (b % 10);
+	int i;
+
+	i = b % 10;
+	if (i < 0)
+	{
+		i = i * -1;
+	}
+
+	_putchar(i + '0');
+	return (i);
 /*	return NAN;*/
 }
