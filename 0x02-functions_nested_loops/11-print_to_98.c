@@ -20,7 +20,8 @@ void print_to_98(int n)
 			else
 			{
 				_putchar('-');
-				_putchar(i * -1 + '0');
+				i = i * -1
+				_putchar(i + '0');
 			}
 		}
 		else
