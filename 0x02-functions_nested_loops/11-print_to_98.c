@@ -13,13 +13,14 @@ void print_to_98(int n)
 	{
 		if (i < 10)
 		{
-			if (i > 0)
+			if (i >= 0)
 			{
 				_putchar(i + '0');
 			}
 			else
 			{
-				printf("%d",i);
+				_putchar('-');
+				_putchar(abs(i) + '0');
 			}
 		}
 		else
