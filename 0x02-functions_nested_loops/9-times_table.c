@@ -18,7 +18,7 @@ void times_table(void)
 			{
 				if (j > 1)
 				{
-					_putchar(0);
+					_putchar(' ');
 				}
 				_putchar( d + '0');
 			}
