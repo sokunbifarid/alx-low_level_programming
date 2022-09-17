@@ -6,17 +6,22 @@
  */
 int main(void)
 {
-	int i,j,k;
+	int i, j, k;
 
-	for (i = 0; i <= 7; i++)
+	for (i = 0; i <= 8; i++)
 	{
 		for (j = 1; j <= 8; j++)
 		{
 			for (k = 2; k <= 9; k++)
 			{
-				putchar((char) i + '0');
-				putchar((char) j + '0');
-				putchar((char) k + '0');
+				putchar(i % 10 + '0');
+				putchar(j % 10 + '0');
+				putchar(k % 10 + '0');
+				
+				if (i > 6 && i < 8 && j > 7 && k > 8)
+				{
+					continue;
+				}
 				putchar(',');
 				putchar(' ');
 			}
