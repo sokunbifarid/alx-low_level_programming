@@ -13,7 +13,14 @@ void print_to_98(int n)
 	{
 		if (i < 10)
 		{
-			_putchar(i + '0');
+			if (i > 0)
+			{
+				_putchar(i + '0');
+			}
+			else
+			{
+				_putchar(i * -1 + '0');
+			}
 		}
 		else
 		{
