@@ -18,7 +18,12 @@ void print_to_98(int n)
 			{
 				_putchar(i + '0');
 			}
-			else
+			else if (i < 0 && i > -10)
+			{
+				_putchar('-');
+				_putchar(abs(i) + '0');
+			}
+			else if (i <= -10)
 			{
 				_putchar('-');
 				_putchar(abs(i) + '0');
