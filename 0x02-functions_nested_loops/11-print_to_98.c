@@ -19,7 +19,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				_putchar(i * -1 + '0');
+				printf("%d",i);
 			}
 		}
 		else
