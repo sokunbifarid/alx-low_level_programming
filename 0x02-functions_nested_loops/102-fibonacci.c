@@ -22,7 +22,7 @@ int main(void)
 		printf("%d", d);
 		i = j;
 		j = d;
-		if (i >= 49)
+		if (k >= 49)
 		{
 			printf("\n");
 			continue;
