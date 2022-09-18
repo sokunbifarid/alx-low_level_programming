@@ -20,13 +20,14 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(d + '0');
 				}
-				else if (i == 0)
+				else if (j == 0)
 				{
 					_putchar(d + '0');
 				}
 				else if (d >= 10)
 				{
-					_putchar(d + '0');
+					_putchar(d / 10 + '0');
+					_putchar(d % 10 + '0');
 				}
 				if (j < n)
 				{
