@@ -14,7 +14,7 @@ int main(void)
 
 	long d = 0;
 
-	int k;
+	long k;
 
 	for (; d <= 4000000;)
 	{
