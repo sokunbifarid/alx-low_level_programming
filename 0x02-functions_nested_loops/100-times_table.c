@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_times_table - function
- * @n - value
+ * @n: value
  */
 void print_times_table(int n)
 {
@@ -28,7 +28,7 @@ void print_times_table(int n)
 				{
 					_putchar(d + '0');
 				}
-				if (i != n)
+				if (j < n)
 				{
 					_putchar(',');
 					_putchar(' ');
