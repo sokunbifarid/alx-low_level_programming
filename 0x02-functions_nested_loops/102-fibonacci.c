@@ -14,10 +14,12 @@ int main(void)
 
 	int d;
 
-	for (i = 0; i < 50; i++)
+	int k;
+
+	for (k = 0; k < 50; k++)
 	{
 		d = i + j;
-		printf("%d",d);
+		printf("%d", d);
 		i = j;
 		j = d;
 		if (i >= 49)
