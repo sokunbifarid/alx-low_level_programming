@@ -8,18 +8,18 @@
  */
 int main(void)
 {
-	int i = 0;
+	long i = 0;
 
-	int j = 1;
+	long j = 1;
 
-	int d;
+	long d = 0;
 
 	int k;
 
 	for (k = 0; k < 50; k++)
 	{
 		d = i + j;
-		printf("%d", d);
+		printf("%ln", d);
 		i = j;
 		j = d;
 		if (k >= 49)
