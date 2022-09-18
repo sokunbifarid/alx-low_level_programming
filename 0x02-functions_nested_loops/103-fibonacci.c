@@ -26,6 +26,6 @@ int main(void)
 			k += i;
 		}
 	}
-	printf("%ld\n",k);
+	printf("%ld\n", k);
 	return (0);
 }
