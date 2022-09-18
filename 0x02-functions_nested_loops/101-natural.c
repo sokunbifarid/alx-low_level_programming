@@ -18,6 +18,6 @@ int main(void)
 			j += i;	
 		}
 	}
-	_putchar('\n');
-	return (j);
+	printf("%d\n",j);
+	return (0);
 }
