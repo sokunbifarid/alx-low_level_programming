@@ -23,9 +23,9 @@ int main(void)
 		j = d;
 		if (i % 2 == 0)
 		{
-			printf("%ld", d);
+			k += i;
 		}
 	}
-	printf("\n");
+	printf("%ld\n",k);
 	return (0);
 }
