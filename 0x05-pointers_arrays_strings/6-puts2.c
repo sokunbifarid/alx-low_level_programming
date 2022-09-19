@@ -14,13 +14,13 @@ void puts2(char *str)
 
 	for (j = 0; j <= i; j++)
 	{
-		if (i == 0)
+		if (j == 0)
 		{
-			_putchar(str[i]);
+			_putchar(str[j]);
 		}
-		else if (i % 2 == 0)
+		else if (j % 2 == 0)
 		{
-			_putchar(str[i]);
+			_putchar(str[j]);
 		}
 	}
 }
