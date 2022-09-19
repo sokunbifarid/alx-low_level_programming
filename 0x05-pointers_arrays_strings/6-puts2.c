@@ -10,13 +10,18 @@ void puts2(char *str)
 {
 	int i = _strlen(str) - 1;
 
-	if (i == 0)
+	int j;
+
+	for (j = 0; j <= i; j++)
 	{
-		_putchar(str[i]);
-	}
-	else if (i % 2 == 0)
-	{
-		_putchar(str[i]);
+		if (i == 0)
+		{
+			_putchar(str[i]);
+		}
+		else if (i % 2 == 0)
+		{
+			_putchar(str[i]);
+		}
 	}
 }
 
