@@ -13,8 +13,8 @@ void rev_string(char *s)
 	int j = 0;
 
 	char cheng[10000];
-	
-	cheng = s;
+
+	char verify;
 	
 	while (i > j)
 	{
@@ -22,6 +22,9 @@ void rev_string(char *s)
 		j++;
 		i--;
 	}
+	verify = s;
+	s = cheng;
+	s = verify;
 }
 
 /**
