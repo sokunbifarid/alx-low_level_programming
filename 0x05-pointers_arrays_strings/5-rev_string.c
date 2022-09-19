@@ -13,18 +13,16 @@ void rev_string(char *s)
 	int j = 0;
 
 	char cheng[10000];
-
-	char *verify = "Temporary Holding String";
 	
 	while (i > j)
 	{
-		cheng[j] = s[i];
-		j++;
-		i--;
+		if (cheng != null)
+		{
+			cheng[j] = s[i];
+			j++;
+			i--;
+		}
 	}
-	verify = s;
-	s = cheng;
-	s = verify;
 }
 
 /**
