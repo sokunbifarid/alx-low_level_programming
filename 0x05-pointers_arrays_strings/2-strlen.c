@@ -4,6 +4,7 @@
 /**
  * _strlen - function
  * @s: value
+ * Return: value
  */
 
 int _strlen(char *s)
