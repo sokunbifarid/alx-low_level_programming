@@ -12,13 +12,14 @@ void rev_string(char *s)
 
 	int j = 0;
 
+	char cheng[10000];
+	
 	while (i > j)
 	{
-		flip_char(s + i, s + j);
+		cheng[j] = s[i];
 		j++;
 		i--;
 	}
-	_putchar('\n');
 }
 
 /**
@@ -36,19 +37,4 @@ int _strlen(char *s)
 		i++;
 	}
 	return (i);
-}
-
-/**
- * flip_char - function
- * @a: value
- * @b: value
- */
-
-void flip_char(char *a, char *b)
-{
-	char i;
-
-	i = *a;
-	*a = *b;
-	*b = i;
 }
