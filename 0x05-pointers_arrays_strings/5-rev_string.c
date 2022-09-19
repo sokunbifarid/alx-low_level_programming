@@ -12,12 +12,12 @@ void rev_string(char *s)
 	
 	int j = 0;
 	
-	char ced = s;
+	char ced[] = s;
 
 	while (i >= 0)
 	{
 		ced[j] = s[i];
-		j++
+		j++;
 		i--;
 	}
 	s = ced;
