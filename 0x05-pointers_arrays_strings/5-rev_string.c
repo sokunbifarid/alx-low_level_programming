@@ -14,7 +14,7 @@ void rev_string(char *s)
 
 	char cheng[10000];
 
-	char verify;
+	char verify = "Temporary Holding String";
 	
 	while (i > j)
 	{
