@@ -20,7 +20,7 @@ void rev_string(char *s)
 		j++;
 		i--;
 	}
-	s = ced;
+	s = ced - ced[0];
 	_putchar('\n');
 }
 
