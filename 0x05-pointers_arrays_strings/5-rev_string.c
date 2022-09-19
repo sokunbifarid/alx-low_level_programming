@@ -14,13 +14,14 @@ void rev_string(char *s)
 
 	char cheng[10000];
 	
+	cheng = s;
+	
 	while (i > j)
 	{
 		cheng[j] = s[i];
 		j++;
 		i--;
 	}
-	s = cheng;
 }
 
 /**
