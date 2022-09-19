@@ -10,11 +10,14 @@ void rev_string(char *s)
 {
 	int i = _strlen(s) - 1;
 	
-	char ced = "";
+	int j = 0;
+	
+	char ced = s;
 
 	while (i >= 0)
 	{
-		ced += s[i];
+		ced[j] = s[i];
+		j++
 		i--;
 	}
 	s = ced;
