@@ -20,6 +20,7 @@ void rev_string(char *s)
 		j++;
 		i--;
 	}
+	s = cheng;
 }
 
 /**
