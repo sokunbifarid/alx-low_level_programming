@@ -16,7 +16,7 @@ void rev_string(char *s)
 	
 	while (i > j)
 	{
-		if (cheng != null)
+		if (cheng != NULL)
 		{
 			cheng[j] = s[i];
 			j++;
