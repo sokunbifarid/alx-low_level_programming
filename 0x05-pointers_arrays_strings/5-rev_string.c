@@ -12,7 +12,7 @@ void rev_string(char *s)
 
 	int j = 0;
 
-	while (i >= 0)
+	while (i > j)
 	{
 		flip_char(s + i, s + j);
 		j++;
