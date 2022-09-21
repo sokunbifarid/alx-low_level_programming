@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * _strcat - function
@@ -9,8 +10,12 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char i = "temp";
+	char i = "";
 	
-	i = dest + src;
-	return (i)
+	char space = " ";
+	
+	strcat(i,dest);
+	strcat(i,space);
+	strcat(i,src);
+	return (i);
 }
