@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
-* _strncat - function
-* @dest: value
-* @src: value
-* @n: value
-* Return: value
-*/
+ *_strncat - function
+ *@dest: value
+ *@src: value
+ *@n: value
+ *Return: value
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
