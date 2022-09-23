@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
-*_strncpy - function
-*@dest: value
-*@src: value
-*@n: value
-*Return: value
-*/
+ *_strncpy - function
+ *@dest: value
+ *@src: value
+ *@n: value
+ *Return: value
+ */
 
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -21,9 +21,7 @@ char *_strncpy(char *dest, char *src, int n)
 			i++;
 		}
 	}
-	for (; i < n; i++)
-	{
-		dest[i] = '\0';
-	}
-	return(dest);
+	i++;
+	dest[i] = '\0';
+	return (dest);
 }
