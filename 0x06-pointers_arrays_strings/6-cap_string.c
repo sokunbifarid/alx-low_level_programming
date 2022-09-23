@@ -20,11 +20,10 @@ char *string_toupper(char *cara)
 		}
 		if (cara[i - 1] != '\0')
 		{
-			if (!(isalpha(cara[i - 1]))
+			if (!(isalpha(cara[i - 1])))
 			{
 				cara[i] -= 32;
 			}
-		}
 	}
 	return (cara);
 }
