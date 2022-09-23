@@ -18,20 +18,12 @@ char *string_toupper(char *cara)
 		{
 			i++;
 		}
-		if (cara[i - 1] == ' ' ||
-				cara[i - 1] == '\t' ||
-				cara[i - 1] == '\n' ||
-				cara[i - 1] == ',' ||
-				cara[i - 1] == ';' ||
-				cara[i - 1] == '.' ||
-				cara[i - 1] == '!' ||
-				cara[i - 1] == '?' ||
-				cara[i - 1] == '"' ||
-				cara[i - 1] == '(' ||
-				cara[i - 1] == ')' ||
-				cara[i - 1] == '{' ||
-				cara[i - 1] == '}')
-			cara[i] -= 32;
+		if (cara[i - 1] != '\0')
+		{
+			if (!(isalpha(cara[i - 1])))
+			{
+				cara[i] -= 32;
+			}
 		}
 	}
 	return (cara);
