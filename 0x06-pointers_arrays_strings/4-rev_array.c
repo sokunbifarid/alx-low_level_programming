@@ -10,11 +10,12 @@ void reverse_array(int *a, int n)
 {
 	int i = 0; j = n;
 
-	int map[5000] = {0,1,2,3};
+	int map[] = {0,1,2,3};
 
 	for (j = n; j >= 0; j--)
 	{
 		a[j] = map[i];
 		i++
 	}
+	a = map;
 }
