@@ -13,7 +13,7 @@ char *leet(char *sat)
 
 	char buggy[5000] = {'H','E','L','I','O','!','!','!'};
 
-	while (sat[++i]))
+	while (sat[++i])
 	{
 		while (j <= cap_value)
 		{
