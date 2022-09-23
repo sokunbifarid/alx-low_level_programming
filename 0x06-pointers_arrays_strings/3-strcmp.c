@@ -22,6 +22,7 @@ int _strcmp(char *s1, char *s2)
 		else
 		{
 			i = 0;
+			break;
 		}
 	}
 	while (i >= 0)
@@ -34,6 +35,7 @@ int _strcmp(char *s1, char *s2)
 		else
 		{
 			i = 0;
+			break;
 		}
 	}
 	ans = s_1 - s_2;
