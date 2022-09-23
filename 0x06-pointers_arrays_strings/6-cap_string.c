@@ -31,7 +31,7 @@ char *string_toupper(char *cara)
 				cara[i - 1] == ')' ||
 				cara[i - 1] == '{' ||
 				cara[i - 1] == '}')
-			str[index] -= 32;
+			cara[i] -= 32;
 		}
 	}
 	return (cara);
