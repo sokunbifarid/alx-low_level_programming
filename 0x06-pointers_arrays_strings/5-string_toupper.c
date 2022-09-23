@@ -11,7 +11,7 @@ char *string_toupper(char *cara)
 {
 	int i = 0;
 
-	while(cara[i] != '\0')
+	while (cara[i] != '\0')
 	{
 		if (cara[i] >= 'a' && cara[i] <= 'z')
 		{
