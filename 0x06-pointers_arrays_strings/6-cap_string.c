@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- *string_toupper - function
+ *cap_string - function
  *@cara: value
  *Return: value
  */
 
-char *string_toupper(char *cara)
+char *cap_string(char *cara)
 {
 	int i = 0;
 
