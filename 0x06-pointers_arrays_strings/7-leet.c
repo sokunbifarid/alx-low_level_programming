@@ -25,6 +25,7 @@ char *leet(char *sat)
 			{
 				sat[i] = j + '0';
 			}
+			j++;
 		}
 	}
 	return (sat);
