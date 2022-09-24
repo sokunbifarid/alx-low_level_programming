@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <ctype.h>
 
 /**
  *cap_string - function
@@ -17,9 +18,16 @@ char *cap_string(char *cara)
 		{
 			break;
 		}
-		if (cara[i] >= 'a' && cara[i] <= 'z')
+		if isalpha(cara[i])
 		{
-			cara[i] = cara[i] - 32;
+			if (cara[i] >= 'a' && cara[i] <= 'z')
+			{
+				cara[i] = cara[i] - 32;
+			}
+		}
+		else
+		{
+			continue;
 		}
 		i++;
 	}
