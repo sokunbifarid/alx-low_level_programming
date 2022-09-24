@@ -12,24 +12,24 @@ void print_number(int n)
 	
 	if (i < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		i = -i;
 	}
 	if (i >= 10 && i <= 99)
 	{
-		putchar((i / 10) + '0');
+		_putchar((i / 10) + '0');
 	}
 	if (i >= 100 && i <=999)
 	{
-		putchar((i / 100) + '0');
-		putchar((i / 10) % 10 + '0');
+		_putchar((i / 100) + '0');
+		_putchar((i / 10) % 10 + '0');
 	}
 	if (i >= 1000 && i <= 9999)
 	{
-		putchar((i / 1000) + '0');
-		putchar((i / 100) % 10 + '0');
-		putchar((i / 10) % 10 + '0');
+		_putchar((i / 1000) + '0');
+		_putchar((i / 100) % 10 + '0');
+		_putchar((i / 10) % 10 + '0');
 	}
 	
-	putchar((i % 10) + '0');
+	_putchar((i % 10) + '0');
 }
