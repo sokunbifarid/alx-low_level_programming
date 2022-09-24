@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <ctype.h>
 
 /**
  *string_toupper - function
@@ -14,7 +13,7 @@ char *string_toupper(char *cara)
 
 	while (i >= 0)
 	{
-		if (cara[i] == NULL && cara[i + 1] == NULL)
+		if (cara[i] == '\0' && cara[i + 1] == '\0')
 		{
 			break;
 		}
