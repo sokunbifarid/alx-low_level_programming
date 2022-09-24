@@ -15,7 +15,7 @@ void print_number(int n)
 		_putchar('-');
 		i = -i;
 	}
-	if (i >= 10 && <= 99)
+	if (i >= 10 && i <= 99)
 	{
 		_putchar((i / 10) + '0');
 	}
