@@ -12,19 +12,17 @@ char *string_toupper(char *cara)
 {
 	int i = 0;
 
-	while (cara[++i])
+	while (i >= 0)
 	{
-		while (!(cara[i] >= 'a' && cara[i] <= 'z'))
+		if (cara[i] == NULL && cara[i + 1] == NULL)
 		{
-			i++;
+			break;
 		}
-		if (cara[i - 1] != '\0')
+		if (cara[i] >= 'a' && cara[i] <= 'z')
 		{
-			if (!(isalpha(cara[i - 1])))
-			{
-				cara[i] -= 32;
-			}
+			cara[i] = cara[i] - 32;
 		}
+		i++;
 	}
 	return (cara);
 }
