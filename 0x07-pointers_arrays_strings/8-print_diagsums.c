@@ -20,7 +20,7 @@ void print_diagsums(int *a, int size)
 	}
 
 	a -= size;
-
+	i = 0;
 	while (i < size)
 	{
 		k += a[i];
