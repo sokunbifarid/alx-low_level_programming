@@ -18,7 +18,6 @@ void print_diagsums(int *a, int size)
 		a += size;
 		i++;
 	}
-
 	a -= size;
 	i = 0;
 	while (i < size)
@@ -27,6 +26,5 @@ void print_diagsums(int *a, int size)
 		a -= size;
 		i++;
 	}
-
 	printf("%d, %d\n", j, k);
 }
