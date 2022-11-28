@@ -6,20 +6,6 @@
  * Return: Returns the integer
  */
 
-/**
- * mesure_str - function
- * @word: character
- * Return: Functions return value
- */
-
-/**
- * accessWord - accesses the input
- * @word: character value
- * @l: integer
- * @m: integer 2
- * Return: return value of function
- */
-
 int is_palindrome(char *s)
 {
 	int i = 0;
@@ -31,6 +17,12 @@ int is_palindrome(char *s)
 
 	return (accessWord(s, j, i));
 }
+
+/**
+ * mesure_str - function
+ * @word: character
+ * Return: Functions return value
+ */
 
 int mesure_str(char *word)
 {
@@ -44,6 +36,14 @@ int mesure_str(char *word)
 
 	return (k);
 }
+
+/**
+ * accessWord - accesses the input
+ * @word: character value
+ * @l: integer
+ * @m: integer 2
+ * Return: return value of function
+ */
 
 int accessWord(char *word, int l, int m)
 {
