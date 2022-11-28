@@ -39,7 +39,7 @@ int mesure_str(char *word)
 	if (*(word + k))
 	{
 		k++;
-		k += measure_str(word + k);
+		k += mesure_str(word + k);
 	}
 
 	return (k);
