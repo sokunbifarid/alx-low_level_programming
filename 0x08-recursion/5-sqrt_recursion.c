@@ -24,7 +24,7 @@ int root(int a, int n)
 	{
 		return (-1);
 	}
-	else if ( a * a == n)
+	else if (a * a == n)
 	{
 		return (a);
 	}
