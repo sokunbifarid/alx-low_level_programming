@@ -20,6 +20,13 @@ int is_prime_number(int n)
 	}
 }
 
+/**
+ * check_prime - the function checks prime
+ * @i: value
+ * @j: value
+ * Return: Value
+ */
+
 int check_prime(int i, int j)
 {
 	if (j <= 1)
