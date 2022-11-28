@@ -40,8 +40,8 @@ int mesure_str(char *word)
 /**
  * accessWord - accesses the input
  * @word: character value
- * @l: integer
- * @m: integer 2
+ * @l: argument integer
+ * @m: argument integer 2
  * Return: return value of function
  */
 
