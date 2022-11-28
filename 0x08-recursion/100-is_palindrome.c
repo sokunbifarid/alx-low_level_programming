@@ -47,7 +47,7 @@ int mesure_str(char *word)
 
 int accessWord(char *word, int l, int m)
 {
-	if (word[index] == word[l / 2])
+	if (word[m] == word[l / 2])
 		return (1);
 
 	if (word[m] == word[l - m - 1])
