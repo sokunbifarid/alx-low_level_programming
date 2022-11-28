@@ -15,7 +15,7 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int root(int a, int n);
 int check_prime(int i, int j);
-int find_strlen(char *s);
-int check_palindrome(char *s, int len, int index);
+int mesure_str(char *word);
+int accessWord(char *word, int l, int m);
 
 #endif /* MAIN_H */
