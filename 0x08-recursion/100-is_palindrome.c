@@ -24,12 +24,12 @@ int is_palindrome(char *s)
 {
 	int i = 0;
 	
-	int j = find_strlen(s);
+	int j = mesure_str(s);
 
 	if (!(*s))
 		return (1);
 
-	return (check_palindrome(s, j, i));
+	return (accessWord(s, j, i));
 }
 
 int mesure_str(char *word)
@@ -39,7 +39,7 @@ int mesure_str(char *word)
 	if (*(word + k))
 	{
 		k++;
-		k += find_strlen(word + k);
+		k += measure_str(word + k);
 	}
 
 	return (k);
