@@ -14,6 +14,10 @@ int is_prime_number(int n)
 	{
 		return (check_prime(n, f));
 	}
+	else
+	{
+		return (0);
+	}
 }
 
 int check_prime(int i, int j)
