@@ -18,6 +18,14 @@ int _sqrt_recursion(int n)
 	}
 }
 
+
+/**
+ *root - square root function
+ *@a: value
+ *@n: value
+ * Return: Value
+ */
+
 int root(int a, int n)
 {
 	if (a > n / 2)
