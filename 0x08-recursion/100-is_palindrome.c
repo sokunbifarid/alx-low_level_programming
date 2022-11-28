@@ -9,7 +9,7 @@
 int is_palindrome(char *s)
 {
 	int i = 0;
-	
+
 	int j = mesure_str(s);
 
 	if (!(*s))
