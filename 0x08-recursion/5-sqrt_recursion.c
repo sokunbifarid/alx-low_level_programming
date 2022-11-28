@@ -14,15 +14,15 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (root(0, n));		
+		return (root(0, n));
 	}
 }
 
 
 /**
- *root - square root function
- *@a: value
- *@n: value
+ * root - square root function
+ * @a: value
+ * @n: value
  * Return: Value
  */
 
