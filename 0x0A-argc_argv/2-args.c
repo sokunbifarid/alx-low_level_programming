@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - prints all arguments it received
-*@argc: argument count
-*@argv: argument vector
-*Return: returns 0
+* main - autoloaded function
+* @argc: argument 1
+* @argv: argument 2
+* Return: return value
 */
 
 int main(int argc, char *argv[])
 {
-		int i;
+		int value = 0;
 
-		for (i = 0; i < argc; i++)
-			printf("%s\n", argv[i]);
-
+		while (value < argc)
+		{
+			printf("%s\n", argv[value]);
+			value++;
+		}
 		return (0);
 }
