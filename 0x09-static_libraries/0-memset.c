@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _memset - function
+* _memset - function with three arguments
 * @s: character
 * @b: character
 * @n: integer
