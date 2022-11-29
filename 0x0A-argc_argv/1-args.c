@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-* main - prints the number of arguments
-*@argc: number of arguments
-*@argv:array of arguments
-*Return: the number of arguments
+* main - autoloaded function
+* @argc: argument 1
+* @argv:argument 2
+* Return: return value
 */
 
 int main(int argc, char __attribute__((__unused__)) *argv[])
