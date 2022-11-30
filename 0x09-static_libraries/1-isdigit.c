@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isdigit - function
+ *_isdigit - function of digit
  *@c: character
  *Return: return value
  */
