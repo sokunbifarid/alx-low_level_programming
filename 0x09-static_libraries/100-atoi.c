@@ -1,5 +1,5 @@
 /**
- * _atoi - function
+ * _atoi - function atoi
  * @s: character
  * Return: return value
  */
